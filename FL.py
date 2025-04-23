@@ -12,10 +12,10 @@ from telebot import types
 from dateutil.relativedelta import relativedelta
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7758619230:AAEY6G0uIanl_Hpn0_YegCJI7DE8h-M44cs')
+bot = telebot.TeleBot('7806976016:AAFNRC_r_quK6qJkri6J_LOMe1ZvxygaboU')
 
 # Admin user IDs
-admin_id = {"6437994839"}
+admin_id = {"6434780221"}
 
 # Files for data storage
 USER_FILE = "users.json"
@@ -340,7 +340,7 @@ def handle_attack(message):
         bot.register_next_step_handler(message, process_attack_details)
 
     else:
-        response = "⛔️ 𝗨𝗻𝗮𝘂𝘁𝗼𝗿𝗶𝘀𝗲𝗱 𝗔𝗰𝗰𝗲𝘀𝘀! ⛔️\n\n OWNER :- @RitikXyz099 !"
+        response = "⛔️ 𝗨𝗻𝗮𝘂𝘁𝗼𝗿𝗶𝘀𝗲𝗱 𝗔𝗰𝗰𝗲𝘀𝘀! ⛔️\n\n OWNER :- @LEGENDGROUP3OX !"
         bot.reply_to(message, response)
 
 def process_attack_details(message):
